@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "mycloudcore0070"
     key    = "terraform.tfstate"
-    region = "eu-norh-1"
+    region = "eu-north-1"
   }
 
   required_version = ">= 1.6.3"
